@@ -1,7 +1,6 @@
 import React, { useRef, useState, useEffect } from "react"
 import PickerContextWrapper from './context'
 import Picker from "./Picker";
-import './styles.css';
 
 export * from './useColorPicker'
 
