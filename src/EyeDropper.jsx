@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Portal from 'robofox-react-portal';
+import Portal from './Portal';
 import { usePicker } from './context'
 import { DropperIcon } from './icon'
 import html2canvas from 'html2canvas'
