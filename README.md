@@ -1,16 +1,16 @@
 <div align="center">
-  <a href="https://www.npmjs.com/package/react-best-gradient-color-picker">
-    <img alt="npm" src="https://badgen.net/npm/v/react-best-gradient-color-picker?color=2c139f" />
+  <a href="https://www.npmjs.com/package/react-gradient-color-picker-ts">
+    <img alt="npm" src="https://badgen.net/npm/v/react-gradient-color-picker-ts?color=2c139f" />
   </a>
-  <a href="https://www.npmjs.com/package/react-best-gradient-color-picker">
-    <img alt="" src="https://badgen.net/npm/dt/react-best-gradient-color-picker?color=2c139f" />
+  <a href="https://www.npmjs.com/package/react-gradient-color-picker-ts">
+    <img alt="" src="https://badgen.net/npm/dt/react-gradient-color-picker-ts?color=2c139f" />
   </a>
-  <a href="https://bundlephobia.com/result?p=react-best-gradient-color-picker">
-    <img alt="" src="https://badgen.net/bundlephobia/min/react-best-gradient-color-picker?color=2c139f" />
+  <a href="https://bundlephobia.com/result?p=react-gradient-color-picker-ts">
+    <img alt="" src="https://badgen.net/bundlephobia/min/react-gradient-color-picker-ts?color=2c139f" />
   </a>
 </div>
 
-# react-best-gradient-color-picker
+# react-gradient-color-picker-ts
 - Customizable, easy to use color and gradient picker for React.js
 - Simply pass in an rgba or css gradient string as value and an onChange handler 
 - Variety of optional tools like eye dropper, advanced color settings, and color guide
@@ -26,11 +26,11 @@
 
 ## Install
 ```
-npm install react-best-gradient-color-picker
+npm install react-gradient-color-picker-ts
 ```
 
 ```
-yarn add react-best-gradient-color-picker
+yarn add react-gradient-color-picker-ts
 ```
 
 ## Demo
@@ -41,7 +41,7 @@ See the picker in action [here](https://gradient-package-demo.web.app/)
 ## Basic Example 
 ```js
 import React from 'react'
-import ColorPicker from 'react-best-gradient-color-picker'
+import ColorPicker from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('rgba(255,255,255,1)');
@@ -86,7 +86,7 @@ function MyApp() {
 
 ```js
 import React from 'react'
-import ColorPicker, { useColorPicker } from 'react-best-gradient-color-picker'
+import ColorPicker, { useColorPicker } from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -146,7 +146,7 @@ function MyApp() {
 
 ```js
 import React from 'react'
-import ColorPicker, { useColorPicker } from 'react-best-gradient-color-picker'
+import ColorPicker, { useColorPicker } from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -170,7 +170,7 @@ function MyApp() {
 
 ```js
 import React from 'react'
-import ColorPicker, { useColorPicker } from 'react-best-gradient-color-picker'
+import ColorPicker, { useColorPicker } from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -193,7 +193,7 @@ function MyApp() {
 
 ```js
 import React from 'react'
-import ColorPicker, { useColorPicker } from 'react-best-gradient-color-picker'
+import ColorPicker, { useColorPicker } from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -218,7 +218,7 @@ function MyApp() {
 
 ```js
 import React from 'react'
-import ColorPicker from 'react-best-gradient-color-picker'
+import ColorPicker from 'react-gradient-color-picker-ts'
 
 const customPresets = [
   'rgba(34, 164, 65, 1)',
@@ -241,7 +241,7 @@ You may also want to provide the users recently used colors in lieu of preset op
 
 ```js
 import React from 'react'
-import ColorPicker, { useColorPicker } from 'react-best-gradient-color-picker'
+import ColorPicker, { useColorPicker } from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -265,7 +265,7 @@ The state of the picker is determined by parsing the value string. You can updat
 
 ```js
 import React from 'react'
-import ColorPicker from 'react-best-gradient-color-picker'
+import ColorPicker from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -306,7 +306,7 @@ Custom linear-gradient degrees input
 
 ```js
 import React from 'react'
-import ColorPicker from 'react-best-gradient-color-picker'
+import ColorPicker from 'react-gradient-color-picker-ts'
 
 function MyApp() {
   const [color, setColor] = useState('linear-gradient(90deg, rgba(96,93,93,1) 0%, rgba(255,255,255,1) 100%)');
@@ -333,4 +333,4 @@ function MyApp() {
 
 ## License
 
-Code released under the [MIT](https://github.com/hxf31891/react-best-gradient-color-picker/blob/main/LICENSE) license.
+Code released under the [MIT](https://github.com/hxf31891/react-gradient-color-picker-ts/blob/main/LICENSE) license.
